@@ -1,0 +1,28 @@
+import React from "react";
+import {NavLink} from "react-router-dom";
+function Navbar(){
+    return (<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a className="navbar-brand" href="/">USERS</a>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+  
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav ml-auto">
+        <li className="nav-item">
+          <NavLink className="nav-link" exact to="/">HOME</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" exact to="/about">ABOUT</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" exact to="/contact">CONTACT</NavLink>
+        </li>
+        
+      </ul>
+      </div>
+
+          <NavLink className="nav-link" exact to="/adduser"><button className="btn btn-outline-light">ADD USER</button></NavLink>
+        </nav>);
+}
+export default Navbar;

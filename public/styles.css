@@ -1,0 +1,35 @@
+.container-fluid{
+    padding-top: 40px;
+}
+.navbar{
+    background-color: blue;
+}
+.nav-link{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nf{
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin: 10px;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+.abc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
